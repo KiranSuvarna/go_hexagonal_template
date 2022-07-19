@@ -1,0 +1,15 @@
+http:
+  address: ":8080"
+
+log:
+  level: "error"
+  format: "text"
+  maxsize: 500
+  maxage: 3
+  maxbackups: 2
+  localtime: false
+  compress: true
+
+
+redis:
+  expiration: 960000
