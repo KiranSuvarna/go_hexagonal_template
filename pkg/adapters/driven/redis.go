@@ -3,9 +3,9 @@ package driven
 import (
 	"fmt"
 	"github.com/go-redis/redis"
-	"github.com/hex_microservice_template/internal/core/domain"
-	"github.com/hex_microservice_template/internal/core/ports/outbound"
-	"github.com/hex_microservice_template/internal/core/usecase"
+	"github.com/hex_microservice_template/pkg/core/domain"
+	"github.com/hex_microservice_template/pkg/core/ports/outbound"
+	"github.com/hex_microservice_template/pkg/core/usecase"
 	"github.com/pkg/errors"
 	"strconv"
 

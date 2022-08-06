@@ -1,7 +1,7 @@
 package inbound
 
 import (
-	"github.com/hex_microservice_template/internal/core/domain"
+	"github.com/hex_microservice_template/pkg/core/domain"
 )
 
 type RedirectService interface {

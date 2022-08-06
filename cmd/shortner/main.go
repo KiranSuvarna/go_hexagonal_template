@@ -1,12 +1,12 @@
-package cmd
+package main
 
 import (
 	"flag"
 	"fmt"
-	"github.com/hex_microservice_template/internal/adapters/driven"
-	"github.com/hex_microservice_template/internal/adapters/driving"
-	"github.com/hex_microservice_template/internal/core/ports/outbound"
-	"github.com/hex_microservice_template/internal/core/usecase"
+	"github.com/hex_microservice_template/pkg/adapters/driven"
+	"github.com/hex_microservice_template/pkg/adapters/driving"
+	"github.com/hex_microservice_template/pkg/core/ports/outbound"
+	"github.com/hex_microservice_template/pkg/core/usecase"
 	"math/rand"
 	"net/http"
 	"os"
@@ -30,7 +30,7 @@ var (
 	appName = "hex_microservice_template"
 )
 
-func Init() {
+func main() {
 	flag.Parse()
 
 	rand.Seed(time.Now().UnixNano())

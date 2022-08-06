@@ -2,9 +2,9 @@ package usecase
 
 import (
 	"github.com/google/uuid"
-	"github.com/hex_microservice_template/internal/core/domain"
-	"github.com/hex_microservice_template/internal/core/ports/inbound"
-	"github.com/hex_microservice_template/internal/core/ports/outbound"
+	"github.com/hex_microservice_template/pkg/core/domain"
+	"github.com/hex_microservice_template/pkg/core/ports/inbound"
+	"github.com/hex_microservice_template/pkg/core/ports/outbound"
 	"github.com/pkg/errors"
 	"gopkg.in/dealancer/validate.v2"
 	"time"
