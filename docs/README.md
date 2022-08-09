@@ -38,7 +38,11 @@ When used in conjunction with Domain-Driven Design, the Application, or Hexagon,
 > High-level modules should not import anything from low-level modules. Both should depend on abstractions (e.g., interfaces). Abstractions should not depend on details. Details (concrete implementations) should depend on abstractions.
 
 
+**References:**
 
+- https://alistair.cockburn.us/hexagonal-architecture/
+
+- https://en.wikipedia.org/wiki/Hexagonal_architecture_(software)
 
 
 
